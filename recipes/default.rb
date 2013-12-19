@@ -18,9 +18,9 @@
 #
 # install google chrome
 windows_package "Google Chrome" do 
-  source node[:chrome][:url]
+  source node['chrome']['url']
   action :install
-  not_if {::File.exists?(node[:chrome][:file])}
+  not_if {::File.exists?(node['chrome']['file'])}
   not_if {reboot_pending?}
 end
 

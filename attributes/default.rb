@@ -16,5 +16,5 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-default[:chrome][:url] = "https://dl.google.com/edgedl/chrome/install/GoogleChromeStandaloneEnterprise.msi"
-default[:chrome][:file] = "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"
+default['chrome']['url'] = "https://dl.google.com/edgedl/chrome/install/GoogleChromeStandaloneEnterprise.msi"
+default['chrome']['file'] = "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"
